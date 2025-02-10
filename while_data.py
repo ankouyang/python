@@ -59,6 +59,18 @@
 #     print(value)
 
 # 遍历字典，并添加序号
-my_dict = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
-for i in enumerate(my_dict.items()):
+# my_dict = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+# for i in enumerate(my_dict.items()):
+#     print(i)
+
+# 循环中使用条件语句列表推导式
+# [i * 2 for i in range(10) if i % 2 == 0]
+
+# for i in range(1, 10):
+#     for j in range(1, i + 1):
+#         print(f"{j}*{i}={i*j}", end="\t")
+#     print()
+
+# 遍历一个对象中的所有元素
+for i in range(1, 2):
     print(i)
