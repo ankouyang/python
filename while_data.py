@@ -74,3 +74,4 @@
 # 遍历一个对象中的所有元素
 for i in range(1, 2):
     print(i)
+    
